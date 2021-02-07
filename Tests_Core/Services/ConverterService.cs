@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Tests_Core.Data_access_layer;
 using Tests_Core.Data_access_layer.Calculations;
@@ -43,6 +44,18 @@ namespace Tests_Core.Services
                 Leverage = GetPropertyValue(splitedOutput, "leverage"),
                 CommissionType = GetCommissionType(splitedOutput)
             };
+        }
+
+        public static List<ICalculationResult> ConvertToResults(string processOutput)
+        {
+            var calculationList = new List<ICalculationResult>();
+            var splitedOutput = processOutput.Split(new char[] { '-' }, StringSplitOptions.RemoveEmptyEntries);
+            foreach (var output in splitedOutput)
+            {
+                calculationList.Add(ConvertToResult(string.Concat("\\n \\r", output)));
+            }
+
+            return calculationList;
         }
 
         private static ICommissionType GetCommissionType(string[] splitedOutput)

@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.IO;
 using Tests_Core.Data_access_layer;
 using Tests_Core.Data_access_layer.Calculations;
