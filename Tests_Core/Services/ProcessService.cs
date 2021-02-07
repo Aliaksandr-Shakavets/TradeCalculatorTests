@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace TestsCore
+namespace Tests_Core.Services
 {
     public static class ProcessService
     {
-        public static string executableFile;
+        public static string executableFile = ApplicationSettings.TradeCalculatorExePath;
         private static readonly ProcessStartInfo processStartInfo = new ProcessStartInfo()
         {
             FileName = executableFile,
