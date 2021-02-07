@@ -1,0 +1,8 @@
+﻿{
+  "openPrice": 1.501,
+  "closePrice": 1.6,
+  "volume": 1.5,
+  "contractSize": 100000,
+  "leverage": 100,
+  "commission": 5
+}
