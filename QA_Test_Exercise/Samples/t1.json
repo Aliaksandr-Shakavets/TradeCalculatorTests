@@ -1,0 +1,9 @@
+﻿{
+  "openPrice": 1.003,
+  "closePrice": 1.004,
+  "volume": 1.5,
+  "contractSize": 100000,
+  "leverage": 100,
+  "commission": 10,
+  "commissionType": "PerTrade"
+}
