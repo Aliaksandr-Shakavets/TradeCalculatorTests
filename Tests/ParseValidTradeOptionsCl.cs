@@ -4,7 +4,7 @@ using Tests_Core.Services;
 
 namespace Tests
 {
-    public class ParseValidTrades : BaseTest
+    public class ParseValidTradeOptionsCl : BaseTest
     {
         [Test]
         [TestCase("--open 1.3 --close 1.2 --volume 1.5 --contract-size 100000 --leverage 10")]
