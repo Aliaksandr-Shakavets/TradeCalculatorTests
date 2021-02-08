@@ -19,7 +19,7 @@
 	Margin 1500.0	
 	Profit 60000.00	
 
-##Expected Result
+## Expected Result
 > Error
 ----------------------------------------------------------------------------------	
 ## Bug Summary
@@ -47,13 +47,13 @@
 > when someone of options is unexists, softwaremm doesn't check requried options - example unexists 'leverage'
  —open 1 —close 1.4 —volume 1.5 —contract-size 10000 —commission -1
 
-##Actual Result
+## Actual Result
 > leverage is unexists.		
 
-##Expected Result
+## Expected Result
 Trade parsed from 'Args'
 Several errors occured:
 Attempted to divide by zero. (System.DivideByZeroException)
 ----------------------------------------------------------------------------------		
-##Bug Summary
+## Bug Summary
 > unhandled exception when directory wasn't found
