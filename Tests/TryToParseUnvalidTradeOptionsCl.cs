@@ -10,6 +10,7 @@ namespace Tests
         [Test]
         [TestCase("--open -1.3 --close 1.2 --volume 1.5 --contract-size 100000 --leverage 10")]
         [TestCase("--open 1 --close 0 --volume 1.5 --contract-size 100000 --leverage 100 --commission 10")]
+        [TestCase("--open s --close 1.1--volume 1.5 --contract-size 100000 --leverage 100 --commission 10")]
         [TestCase("--open 1 --close 1.2 --volume 1.5 --contract-size -1 --leverage 100 --commission 10")]
         [TestCase("--open 1 --close 1.3 --volume 1.5 --contract-size 100000 --leverage 0 --commission 10")]
         [TestCase("--open 1 --close 1.4 --volume 1.5 --contract-size 100000 --leverage 100 --commission -1")]
