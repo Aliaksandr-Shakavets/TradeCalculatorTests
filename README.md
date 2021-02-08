@@ -10,7 +10,7 @@
 > Checks for invalid input and command spelling, both on the command line and in the files.
 
 - Сheck the quality of the product
-> 17 passed tests and 8 failed.
+> 18 passed tests and 8 failed.
 
 - Write Test Summary Report 
 > In a file called bug report.
