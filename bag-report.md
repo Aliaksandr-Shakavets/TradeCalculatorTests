@@ -1,3 +1,17 @@
+#  Manual
+## Bug Summary
+> Not friendly error message when trade sample file not found.
+
+## Actual Result
+> FileNotFoundException Class
+
+## Expected Result
+	Trade parsed from 'Args'
+	Several errors occured:
+	Sample file {full path} not found. (System.FileNotFoundException)
+----------------------------------------------------------------------------------
+
+#  Autotesing:
 ## Bug Summary
 > The name of the trade option contains one or more letters in the correct register
 "—opEn 1.3 —close 1.2 —volume 1.5 —contract-size 10000 —leverage 10"
