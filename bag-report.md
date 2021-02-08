@@ -1,5 +1,5 @@
 ## Bug Summary
-> The name of the tray option contains one or more letters in the correct register
+> The name of the trade option contains one or more letters in the correct register
 "—opEn 1.3 —close 1.2 —volume 1.5 —contract-size 10000 —leverage 10"
 
 ## Actual Result
@@ -23,7 +23,7 @@
 > Error
 ----------------------------------------------------------------------------------	
 ## Bug Summary
-Bad calculation from file when default value of tray type t2.json
+Bad calculation from file when default value of trade type t2.json
 	{
 	  "openPrice": 1.5.
 	  "closePrice": 1.6.
@@ -53,7 +53,7 @@ Bad calculation from file when default value of tray type t2.json
 	Attempted to divide by zero. (System.DivideByZeroException)	 		
 
 ## Expected Result
-	leverage is unexists.
+	Leverage is unexists.
 ----------------------------------------------------------------------------------		
 ## Bug Summary
 > Unhandled exception when directory wasn't found
