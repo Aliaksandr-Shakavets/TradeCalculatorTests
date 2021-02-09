@@ -1,3 +1,5 @@
+#### Before running tests, you need to change the path to the Trade Calculator application folder in the App.runsettings file
+
 # Test Exercise
 
 ## Product
